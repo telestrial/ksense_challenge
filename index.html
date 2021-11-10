@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ksense Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="pageTitle">Click any user to see their posts</h1>
+    <div class="container">
+      <div class="container__users">
+        <h1>Users</h1>
+        <table class="userTable">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>User Name</th>
+              <th>Email</th>
+              <th>Real Name</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody class="userTable__body"></tbody>
+        </table>
+      </div>
+      <div class="container__posts">
+        <h1>Posts</h1>
+        <table class="postsTable">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Title</th>
+              <th>Body</th>
+            </tr>
+          </thead>
+          <tbody class="postsTable__body">
+            <tr>
+              <td>0</td>
+              <td>Nothing here yet...</td>
+              <td>Click any user's row on the left to load their posts</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
